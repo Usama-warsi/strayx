@@ -1,0 +1,313 @@
+#nav {
+    font: inherit;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#nav ul {
+    text-align: center;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 250px;
+    font-family: "arial";
+    font-style: normal;
+    color: #000000;
+}
+
+#nav li {
+    text-align: center;
+    width: 100%;
+
+}
+
+#nav li a {
+    color: #000000;
+    font-weight: 600;
+}
+
+#slider p {
+    margin-bottom: 0%;
+    font-size: 12px;
+}
+
+#nav-emoji svg {
+    width: 20px;
+}
+
+footer {
+    background-color: #f3f3f3;
+    min-height: 80vh;
+}
+
+h1 {
+    font-size: 64px;
+    letter-spacing: 0.9px;
+    font-family: 'Gotham Ultra', sans-serif;
+    text-transform: uppercase;
+}
+
+footer h1 {
+    margin: 20% 0;
+    ;
+}
+
+#social-links svg {
+    width: 30px;
+
+}
+
+#useful-links ul {
+    font-size: 12px;
+    font-family: Arial;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#useful-links ul li {
+    padding-left: 15px;
+}
+
+@media screen and(min-width: 667px) {
+    #useful-links ul {
+
+        display: block;
+
+    }
+
+}
+
+.card img {
+    transition: 1s ease;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card {
+    border: none;
+    margin-left: 5px;
+}
+
+.review {
+    display: flex;
+    position: relative;
+    margin-top: -2.5rem;
+    margin-left: 8rem;
+}
+
+.star {
+    height: 20px;
+    width: 20px;
+    margin-top: -2.5rem;
+
+}
+
+.font42 {
+    font-size: 42px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font72 {
+    font-size: clamp(32px, 72px, 72px);
+}
+
+.font96 {
+    font-size: clamp(32px, 96px, 96px);
+}
+
+.margintop-8 {
+    margin-top: 8rem
+}
+
+.width-heigh100 {
+    width: 100%;
+    height: 100%;
+}
+
+.lightes-gray {
+    color: #a3a3a3;
+    font-weight: 600;
+}
+
+.bg-light-gray {
+    background-color: #f3f3f3;
+}
+
+.height-1 {
+    min-height: 100vh;
+}
+
+.bg-dark2 {
+    background-color: #000000;
+    color: #fff;
+}
+
+.font-dark {
+    color: #000000;
+}
+
+.font-arial {
+    font-family: 'Gotham Bold', sans-serif;
+    font-weight: 100;
+}
+
+.font-times {
+    font-family: 'Times New Roman';
+    font-weight: 100;
+}
+
+.letterspacing {
+    letter-spacing: 1px;
+    line-height: 40px;
+
+}
+
+.writting {
+    font-family: Bradley Hand;
+}
+
+.bg-dark {
+    background-color: #d8d8d8;
+    color: white;
+}
+
+.blogCoverImg {
+    height: 65vh;
+    overflow: hidden;
+    padding: 0%;
+    margin: 0%;
+}
+
+#logo img {
+    width: 200px;
+    height: 50px;
+}
+
+#contact-text {
+    display: flex;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10%;
+    line-height: 72px;
+
+}
+
+#footershape {
+    -webkit-clip-path: polygon(100% 0, 0% 100%, 0 0);
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+    background-color: #000000;
+    height: 70vh;
+    margin-left: -50px;
+    display: flex;
+    position: absolute;
+}
+
+.footershape {
+    -webkit-clip-path: polygon(100% 0, 0% 100%, 0 0);
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+    height: 70vh;
+    margin-left: -50px;
+    display: flex;
+    position: absolute;
+}
+
+.shape {
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+    height: 142%;
+    margin-left: -50px;
+    display: flex;
+    position: absolute;
+}
+
+.bg-dark-gray {
+    background-color: #d8d8d8;
+}
+
+#sidebar ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+#sidebar ul li {
+    margin-top: 1.8rem;
+}
+
+#sidebar ul li a {
+    margin-top: 1.8rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+#pagination ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#pagination ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem;
+    transition: 0.5s ease;
+}
+
+#pagination ul li a:hover {
+    text-decoration: none;
+    background-color: #d8d8d8;
+    color: #ffff;
+    border-radius: 50%;
+}
+
+#pen,
+.penGet {
+    display: flex;
+    position: absolute;
+    z-index: 200;
+    left: 45%;
+    overflow-x: hidden;
+}
+
+.penGet {
+    margin-top: -50px;
+    z-index: 1;
+    overflow-x: hidden;
+
+}
+
+.penheight {
+    overflow-x: hidden;
+    margin-top: -200px;
+    z-index: 1;
+}
